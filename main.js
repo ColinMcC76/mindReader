@@ -63,14 +63,14 @@ function assembly(state) {
 
             break;
         case 3:
-            page.innerText = "Subtract new number from the old";
+            page.innerText = "Subtract old number from new number";
             para.innerText = "Ex. 14 - 5 = 9"
             button1.innerText = "next"
 
             break;
         case 4:
             page.innerHTML = numbers();
-            para.innerText = "Scroll to find the new number, and note the symbol beside it."
+            para.innerText = "Scroll to find the number, and note the symbol beside it."
             button1.innerText = "reveal"
             break;
         case 5:
